@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import './function.dart';
 
 void main() {
   runApp(MyApp());
