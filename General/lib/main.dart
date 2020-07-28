@@ -9,27 +9,7 @@ void main() {
 class MyApp extends StatelessWidget {
   var url =
       'https://avatars0.githubusercontent.com/u/64483453?s=400&u=53bef289fd8f2cc3a37dba706867b7c2d5eb70af&v=4';
-  void emailClick() {
-    Fluttertoast.showToast(
-        msg: "soumyjain14@gmail.com",
-        toastLength: Toast.LENGTH_SHORT,
-        gravity: ToastGravity.BOTTOM,
-        timeInSecForIosWeb: 1,
-        backgroundColor: Colors.blue,
-        textColor: Colors.white,
-        fontSize: 16.0);
-  }
-
-  void onPhoneClick() {
-    Fluttertoast.showToast(
-        msg: "8837546607",
-        toastLength: Toast.LENGTH_SHORT,
-        gravity: ToastGravity.BOTTOM,
-        timeInSecForIosWeb: 1,
-        backgroundColor: Colors.black,
-        textColor: Colors.white,
-        fontSize: 16.0);
-  }
+  
 
   @override
   Widget build(BuildContext context) {
